@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "style-dictionary build",
-    "build2": "style-dictionary build --config sd.config.js",
-    "test": "test.js"
+    "transform-tokens-to-scss": "style-dictionary build",
+    "transform-tokens-to-figma-format": "style-dictionary build --config sd.config.js"
   },
   "author": "Yago Lopez",
   "license": "ISC",

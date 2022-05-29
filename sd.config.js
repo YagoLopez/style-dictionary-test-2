@@ -1,7 +1,7 @@
 const { transform } = require('@divriots/style-dictionary-to-figma');
 
 module.exports = {
-  source: ['./tokens/**/*.json'],
+  source: ['./figma-tokens/**/*.json'],
   format: {
     figmaTokensPlugin: ({ dictionary }) => {
       const transformedTokens = transform(dictionary.tokens);

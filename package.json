@@ -5,11 +5,13 @@
   "main": "index.js",
   "scripts": {
     "build": "style-dictionary build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build2": "style-dictionary build --config sd.config.js",
+    "test": "test.js"
   },
   "author": "Yago Lopez",
   "license": "ISC",
   "devDependencies": {
+    "@divriots/style-dictionary-to-figma": "^0.2.0",
     "style-dictionary": "^3.7.0"
   }
 }

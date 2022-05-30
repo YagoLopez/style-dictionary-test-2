@@ -1,14 +1,16 @@
-# POC - Import figma token in project as scss variables
+#Import figma token in project as scss variables
+## POC
 
 This example show how to include figma tokens in a github project
 
 - Create a new Figma project
-- Install Figma Token plugins in Figma
+- Install Figma Tokens plugin
 - Create some tokens in Figma Tokens plugin
 - Clone this GitHub repository https://github.com/YagoLopez/style-dictionary-test-2
+- Run npm install to install dependencies
 - Make sure `/figma-tokens` folder is empty in the project
-- Open Figma Tokens plugin and push tokens to the repo`YagoLopez/style-dictionary-test-2` using this github personal access token: `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`
-- Open project in editor `YagoLopez/style-dictionary-test-2` and pull changes
+- Open Figma Tokens plugin and push tokens to the repo`YagoLopez/style-dictionary-test-2`. Use this github personal access token: `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`
+- Open project `YagoLopez/style-dictionary-test-2` and pull changes
 - Run import script:
 
 ```bash

@@ -1,17 +1,23 @@
-#Import figma token in project as scss variables
-## POC
+# Import Figma Tokens in a Project as SCSS variables
 
-This example show how to include figma tokens in a github project
+#### Proof Of Concept
+
+This example show how to import Figma Tokens in a Github project using **Style Dictionary** npm package
 
 - Create a new Figma project
-- Install Figma Tokens plugin
-- Create some tokens in Figma Tokens plugin
+- Install Figma Tokens Plugin
+- Configure Figma Tokens Plugin
+  -  Github Repository: `YagoLopez/style-dictionary-test-2`
+  - Github personal access token: `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`
+  - Default branch: `master`
+  - Branch name for the pull request: `tokens`
+  - File path: `figma-tokens/tokens.json`
+- Create some tokens in Figma Tokens Plugin. [Here is an example of Figma Tokens](https://github.com/YagoLopez/style-dictionary-test-2/blob/master/tokens/figma-tokens-example.json)
 - Clone this GitHub repository https://github.com/YagoLopez/style-dictionary-test-2
 - Run npm install to install dependencies
 - Make sure `/figma-tokens` folder is empty in the project
-- Open Figma Tokens plugin and push tokens to the repo`YagoLopez/style-dictionary-test-2`. Use this github personal access token: `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`
-- Open project `YagoLopez/style-dictionary-test-2` and pull changes
-- Run import script:
+- Pull changes in project `YagoLopez/style-dictionary-test-2` 
+- Run tokens import script:
 
 ```bash
 npm run transform-tokens-to-scss
@@ -27,9 +33,7 @@ scss
 
 ```
 
-Tokens should be imported as scss variables in `src/scss/_variables.scss` folder:
-
-**SCSS**
+**Tokens should be imported as SCSS variables in `src/scss/_variables.scss` folder:**
 
 ```scss
 // src/scss/_variables.scss

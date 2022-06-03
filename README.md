@@ -2,19 +2,19 @@
 
 #### Proof Of Concept
 
-This example show how to import Figma Tokens in a Github project using **Style Dictionary** npm package
+This example shows how to import Figma Tokens in a Github project using **Style Dictionary** npm package
 
 - Create a new Figma project
 - Install Figma Tokens Plugin
-- Configure Figma Tokens Plugin
-  -  Github Repository: `YagoLopez/style-dictionary-test-2`
-  - Github personal access token: `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`
+- Configure Figma Tokens Plugin:
+  - Github Repository: `YagoLopez/style-dictionary-test-2`
+  - Use Github personal access token: `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`
   - Default branch: `master`
   - Branch name for the pull request: `tokens`
   - File path: `figma-tokens/tokens.json`
 - Create some tokens in Figma Tokens Plugin. [Here is an example of Figma Tokens](https://github.com/YagoLopez/style-dictionary-test-2/blob/master/tokens/figma-tokens-example.json)
 - Clone this GitHub repository https://github.com/YagoLopez/style-dictionary-test-2
-- Run npm install to install dependencies
+- Run `npm install` to install dependencies
 - Make sure `/figma-tokens` folder is empty in the project
 - Pull changes in project `YagoLopez/style-dictionary-test-2` 
 - Run tokens import script:
